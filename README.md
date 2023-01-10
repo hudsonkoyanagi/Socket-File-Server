@@ -6,4 +6,7 @@ Implements a custom API for server requests and a custom recursive file structur
 
 /hr
 
-To use, run the Runner class and the ClientGUI (they are both threaded so you can run locally for testing).
+
+To use:
+1) Edit the directory in Server and Client to local directories that can act as the servers and clients home directories.
+2) Run the Runner class and the ClientGUI (they are both threaded so you can run locally for testing).
