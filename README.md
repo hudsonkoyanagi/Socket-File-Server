@@ -4,8 +4,6 @@ A multi-threaded server capable of sending and receiving files over a TCP connec
 
 Implements a custom API for server requests and a custom recursive file structure for the transport of database layout.
 
-/hr
-
 
 To use:
 1) Edit the directory in Server and Client to local directories that can act as the servers and clients home directories.
