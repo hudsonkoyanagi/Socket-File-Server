@@ -6,4 +6,4 @@ Implements a custom API for server requests and a custom recursive file structur
 
 /hr
 
-To use, run the Runner class and the ClientGUI 
+To use, run the Runner class and the ClientGUI (they are both threaded so you can run locally for testing).
