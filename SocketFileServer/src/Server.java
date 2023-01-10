@@ -5,8 +5,7 @@ import java.nio.file.Files;
 
 public class Server extends Thread{
 
-    //static final String MAIN_DIR = "/Users/hudsonkoyanagi/ServerFolder";
-    static final String MAIN_DIR = "/Users/hudsonkoyanagi/Desktop";
+    static final String MAIN_DIR = "REPLACE_WITH_USER_DIR";
     private final ServerSocket serverSocket;
     int PORT;
 
