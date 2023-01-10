@@ -3,7 +3,7 @@ import java.net.*;
 import java.nio.file.Files;
 
 public class Client extends Thread{
-    static final String DOWNLOAD_PATH = "/Users/hudsonkoyanagi/ClientFolder";
+    static final String DOWNLOAD_PATH = "REPLACE_WITH_USER_DIR";
     static int PORT;
     String req;
     int type;
