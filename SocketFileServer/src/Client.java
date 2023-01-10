@@ -9,7 +9,7 @@ public class Client extends Thread{
     int type;
     String fileName;
 
-    public APIClient(int port, String req, int type, String fileName){
+    public Client(int port, String req, int type, String fileName){
         PORT = port;
         this.req = req;
         this.type = type;
