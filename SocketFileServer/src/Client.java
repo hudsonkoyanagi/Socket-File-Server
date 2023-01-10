@@ -2,7 +2,7 @@ import java.io.*;
 import java.net.*;
 import java.nio.file.Files;
 
-public class APIClient extends Thread{
+public class Client extends Thread{
     static final String DOWNLOAD_PATH = "/Users/hudsonkoyanagi/ClientFolder";
     static int PORT;
     String req;
