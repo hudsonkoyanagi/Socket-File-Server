@@ -3,14 +3,14 @@ import java.net.*;
 import java.io.*;
 import java.nio.file.Files;
 
-public class MockAPI extends Thread{
+public class Server extends Thread{
 
     //static final String MAIN_DIR = "/Users/hudsonkoyanagi/ServerFolder";
     static final String MAIN_DIR = "/Users/hudsonkoyanagi/Desktop";
     private final ServerSocket serverSocket;
     int PORT;
 
-    public MockAPI(int port) throws IOException{
+    public Server(int port) throws IOException{
         PORT = port;
         serverSocket = new ServerSocket(PORT);
     }
